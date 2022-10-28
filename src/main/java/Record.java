@@ -7,9 +7,9 @@ import java.util.Objects;
 Class of Records for filling the PhoneBook
  */
 public class Record {
-    long id;
-    String phoneNumber;
-    String Name;
+    public long id;
+    public String phoneNumber;
+    public String Name;
 
     Record(long id, String phoneNumber, String Name) throws MyExceptionClass {
 

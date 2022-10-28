@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class PhoneBook {
-    ArrayList<Record> recordsList = new ArrayList<>();
+    public ArrayList<Record> recordsList = new ArrayList<>();
 
     PhoneBook() {
 

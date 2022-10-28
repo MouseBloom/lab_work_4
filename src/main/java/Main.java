@@ -13,7 +13,7 @@ public class Main {
             pb.createRecord(new Record(3, "3", "C"));
             pb.deleteRecord(3);
             pb.updateRecord(new Record(1, "4", "D"));
-            for(Record record: pb.recordsList){
+            for (Record record : pb.recordsList) {
                 System.out.println(record.recordInfo());
             }
         } catch (MyExceptionClass e) {

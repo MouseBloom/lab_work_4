@@ -13,9 +13,9 @@ public class Record {
 
     Record(long id, String phoneNumber, String Name) throws MyExceptionClass {
 
-            this.id = id;
-            this.phoneNumber = phoneNumber;
-            this.Name = Name;
+        this.id = id;
+        this.phoneNumber = phoneNumber;
+        this.Name = Name;
 
     }
 
@@ -23,20 +23,20 @@ public class Record {
     I dont know how to check that arguments are given to constructor,
     So made extra 3 constructors for this case
      */
-    Record() throws MyExceptionClass{
+    Record() throws MyExceptionClass {
         throw new MyExceptionClass("Record not valid");
     }
 
-    Record(long id) throws MyExceptionClass{
+    Record(long id) throws MyExceptionClass {
         throw new MyExceptionClass("Record not valid");
     }
 
-    Record(long id, String pn) throws MyExceptionClass{
+    Record(long id, String pn) throws MyExceptionClass {
         throw new MyExceptionClass("Record not valid");
     }
 
     //Getter
-    public String recordInfo(){
+    public String recordInfo() {
         ArrayList<String> info = new ArrayList<>();
         info.add(Long.toString(id));
         info.add(phoneNumber);

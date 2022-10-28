@@ -1,6 +1,6 @@
-public class MyUncheckedException extends RuntimeException{
+public class MyUncheckedException extends RuntimeException {
 
-    MyUncheckedException(String message){
+    MyUncheckedException(String message) {
         super(message);
     }
 }
